@@ -1,0 +1,155 @@
+body{
+   
+
+margin: 0%;
+padding: 0%;
+font-family: telefonica;
+
+}
+
+body::before{
+    content: "";
+    z-index: -1;
+}
+
+.contenedor{
+    height: 1750px;
+    width: 1200px;
+    border: 10px;
+    margin: auto;
+
+}
+
+header{
+
+width: 1200px;
+height: 110px;
+background-color: rgb(21, 161, 255);
+
+
+
+}
+h1{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0px;
+margin-bottom: 300px;
+
+}
+img{
+    display: flex;
+   margin: auto;
+   opacity: 0.3;
+}
+img::before{
+
+    content: "";
+    z-index: -30;
+
+}
+
+h2{
+    display: flex;
+    text-align: center;
+    font-size: 90px;
+    margin-top: -380px;
+    margin-left: 330px;
+    position:absolute;
+    color: rgb(21, 161, 255);
+}
+.años{
+    display: flex;
+    text-align: center;
+    font-size: 220px;
+    margin-top: -350px;
+    margin-left: 380px;
+    position:absolute;
+    color: rgb(21, 161, 255);
+}
+h3{
+    display: flex;
+    text-align: center;
+    font-size: 80px;
+    margin-top: -140px;
+    margin-left: 250px;
+    position:absolute;
+    color: rgb(21, 161, 255);
+}
+.clip{
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(21, 161, 255);
+    margin-top: -95px;
+    clip-path: polygon(0% 25%, 100% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+}
+.clip::before{
+  content: "";
+  z-index: -1;
+}
+
+
+
+
+.radio{
+    display: flex;
+    width: 450px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    clip-path: circle(50% at 50% 50%);
+    margin: auto;
+    margin-top:150px;
+   
+}
+.moviles{
+   display: flex;
+    width: 500px;
+    height: 600px;
+ background-image: url( "../img/celuar.png");
+ background-repeat: no-repeat;
+    margin: auto;
+    margin-top: -600px;
+    margin-left: 400px;
+    position: absolute;
+	padding: 50;
+	padding-bottom: 50px;
+
+
+}
+.movile::before{
+    content: "";
+    z-index: 1;
+}
+p{ position: absolute;
+    font-size: 55px;
+    margin-top: 650px;
+    margin-left: -100px;
+
+}
+a{
+  position: absolute;
+    padding: 10px 10px;
+    font-size: 30px;
+    color:rgb(21, 161, 255);
+    background-color: rgb(255, 255, 255);
+    margin-top: 750px;
+    margin-left: 140px;
+    text-decoration: none;
+    border-radius: 50px;
+    overflow: hidden;
+}
+footer{
+    width: 1200px;
+    height: 450px;
+    border-bottom: 3px;
+}
+#pie{
+    position: absolute;
+    font-size: 100px;
+    margin: auto;
+    margin-top: 340px;
+    color:rgb(21, 161, 255);
+    margin-left: 200px;
+}
